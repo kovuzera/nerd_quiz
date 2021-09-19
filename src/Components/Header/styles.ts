@@ -26,7 +26,15 @@ export const Content = styled.div`
       font-size: 2rem;
       margin-bottom: 2rem;
   }
+
+  input{
+    border-radius: 2rem;
+    height: 100%;
+  }
+
   label {
       margin-left:1rem;
+      font-size: 1.3rem;
+      user-select: none;
   }
 `;
